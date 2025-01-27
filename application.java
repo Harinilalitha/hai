@@ -19,7 +19,8 @@ public class Account
 		Username = UN;
 		Password = PassW;
 	}
-
+	#some changes have been made by xyz in feature 2.2 in the code on jan 2025
+	public class Main { static void myMethod() { System. out. println("I just got executed!"); } public static void main(String[] args) { myMethod(); } }
     public boolean signUp() {
 		boolean done = !Username.equals("") && !Password.equals("") && !Password1.equals("") && Password.equals(Password1);
 		try {
@@ -132,3 +133,4 @@ public class Account
 	    return done;
 	}
 }
+# end of feature-2.2
