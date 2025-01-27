@@ -19,6 +19,18 @@ public class Account
 		Username = UN;
 		Password = PassW;
 	}
+
+	#some changes have been made by xyz in feature 2.2 in the code on jan 2025
+	public class Main { 
+		static void myMethod() 
+		{ System. out. println("I just got executed!"); 
+		} public static void main(String[] args) 
+		{ myMethod(); 
+		} 
+	}
+    #end of feature-2.2
+	public boolean signUp() {
+
 	#feature-2.1 changes done by me for the module userslogin module in hdfc project in jan2025
     // create a method
  	 public int addNumbers(int a, int b) {
@@ -39,6 +51,7 @@ public class Account
   }
 }
 #end of feature 2.1
+
 		boolean done = !Username.equals("") && !Password.equals("") && !Password1.equals("") && Password.equals(Password1);
 		try {
 		    if (done) {
