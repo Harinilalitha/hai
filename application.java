@@ -20,7 +20,13 @@ public class Account
 		Password = PassW;
 	}
 	#some changes have been made by xyz in feature 2.2 in the code on jan 2025
-	public class Main { static void myMethod() { System. out. println("I just got executed!"); } public static void main(String[] args) { myMethod(); } }
+	public class Main { 
+		static void myMethod() 
+		{ System. out. println("I just got executed!"); 
+		} public static void main(String[] args) 
+		{ myMethod(); 
+		} 
+	}
     #end of feature-2.2
 	public boolean signUp() {
 		boolean done = !Username.equals("") && !Password.equals("") && !Password1.equals("") && Password.equals(Password1);
