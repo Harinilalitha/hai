@@ -19,8 +19,26 @@ public class Account
 		Username = UN;
 		Password = PassW;
 	}
+	#feature-2.1 changes done by me for the module userslogin module in hdfc project in jan2025
+    // create a method
+ 	 public int addNumbers(int a, int b) {
+        int sum = a + b;
+         return sum;
+    }
 
-    public boolean signUp() {
+  public static void main(String[] args) {
+    
+    int num1 = 25;
+    int num2 = 15;
+
+    // create an object of Main
+    Main obj = new Main();
+    // calling method
+    int result = obj.addNumbers(num1, num2);
+    System.out.println("Sum is: " + result);
+  }
+}
+#end of feature 2.1
 		boolean done = !Username.equals("") && !Password.equals("") && !Password1.equals("") && Password.equals(Password1);
 		try {
 		    if (done) {
